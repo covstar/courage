@@ -77,7 +77,7 @@ function App() {
                 }}
                 variant="contained"
                 onClick={getRandomQuote}>
-                Change
+                Inspire Me!
               </Button>
             </div>
           </div>
