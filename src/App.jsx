@@ -33,15 +33,17 @@ function App() {
   return <>
     <div>
       <div className='header'>
+      <div className='profile_container'>
+        <h1>Princess Chinelo Noble</h1>
+        <img src={princessImg} alt='Princess' />
+      </div>
         <marquee >Here's to an amazing personality</marquee>
       </div>
 
+
       <div className='main_container'>
 
-        <div className='profile_container'>
-          <img src={princessImg} alt='Princess' />
-          <h1>Princess Chinelo Noble</h1>
-        </div>
+
 
         <div className='quote_container'>
           <div className='quote_img'>
@@ -61,22 +63,22 @@ function App() {
               repeat={Infinity}
               style={{ fontSize: '', display: '' }}
             />
-           
+
             <div className='btn'>
-            <Button
-              sx={{
-                display: 'block',
-                bgcolor: '#787775',
-                color: '#ebebeb',
-                '&:hover': {
-                  color: '#787775',
-                  bgcolor: '#ebebeb'
-                }
-              }}
-              variant="contained"
-              onClick={getRandomQuote}>
-              Change
-            </Button>
+              <Button
+                sx={{
+                  display: 'block',
+                  bgcolor: '#787775',
+                  color: '#ebebeb',
+                  '&:hover': {
+                    color: '#787775',
+                    bgcolor: '#ebebeb'
+                  }
+                }}
+                variant="contained"
+                onClick={getRandomQuote}>
+                Change
+              </Button>
             </div>
           </div>
 
@@ -85,6 +87,9 @@ function App() {
 
       </div>
 
+    </div>
+    <div className='footer'>
+                <p>Remember That You Are The Best!</p>
     </div>
   </>;
 }

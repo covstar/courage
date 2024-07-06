@@ -3,32 +3,33 @@
 @tailwind base;
 @tailwind components;
 html{
-    @apply font-Oswald bg-love_1
+    @apply font-Oswald bg-love_3 
 }
 body{
-    @apply pb-[40px]
+    @apply pb-[40px] 
 }
 
 .header{
-    @apply bg-love_5 text-love_2 text-[24px] mobile:text-[18px] uppercase  font-[700] p-[5px]
+    @apply bg-gradient-to-br from-love_5 to-love_3 text-[#222] text-[24px] mobile:text-[18px] uppercase  font-[700] p-[5px] px-[20px] shadow-md
 }
 .main_container{
     @apply px-[10%] mobile:px-[5%] pt-[2%] mobile:pt-[10%]
 }
 .profile_container{
-    @apply  flex-col flex items-start mx-auto w-fit  p-[20px]  rounded-md bg-gradient-to-tr from-love_5 to-love_3;
-    box-shadow: 5px 10px 15px 4px rgba(0, 0, 0, 0.2);
+    @apply   flex justify-between items-center pt-[15px];
+    /* box-shadow: 5px 10px 15px 4px rgba(0, 0, 0, 0.2); */
 
 }
 .profile_container img{
-    @apply rounded-full mb-2 w-[100px] h-[100px] drop-shadow-2xl shadow-lg mx-auto mobile:w-[70px] mobile:h-[70px]
+    @apply rounded-full mb-2 w-[70px] h-[70px] drop-shadow-2xl shadow-lg  mobile:w-[50px] mobile:h-[50px]
 }
 .profile_container h1{
-    @apply text-[14px] font-semibold text-love_1
+    @apply text-[24px] font-semibold text-love_1 mobile:text-[16px];
+    text-shadow: 5px 10px 2px rgba(0, 0, 0, 0.2);
 }
 .quote_container{
     @apply flex justify-center mx-auto gap-x-20 mt-[90px] mobile:mt-[45px] py-[50px] px-[10px] laptop:w-[950px] mobile:w-full mobile:flex-col mobile:py-[30px] mobile:px-[20px] mobile:rounded-md;
-    box-shadow: 5px 10px 15px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 10px 15px 4px rgba(92, 87, 47, 0.2);
 
 }
 .quote_img {
@@ -39,12 +40,18 @@ body{
     @apply w-full h-full object-cover object-center
 }
 .quote{
-    @apply text-[40px] w-[30%] pt-[10px] h-[420px] relative mobile:w-full mobile:text-[24px] mobile:text-center mobile:h-[300px]
+    @apply text-[30px] w-[30%] pt-[10px] h-[420px] relative mobile:w-full mobile:text-[24px] mobile:text-center mobile:h-[300px]
 }
 .btn{
     @apply absolute bottom-[50px] left-0 mobile:right-0 mobile:mx-auto mobile:left-0 mobile:w-full mobile:flex mobile:justify-center
 }
 .btn button{
     @apply font-semibold text-[18px] px-[40px] py-[10px] mobile:text-[15px]
+}
+.footer{
+    @apply bg-gradient-to-tl from-love_5 to-love_3 absolute bottom-0 left-0 right-0 w-full py-[20px] px-[20px] mt-[20px]
+}
+.footer p{
+    @apply text-love_1 text-center text-[24px]
 }
 @tailwind utilities;
