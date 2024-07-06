@@ -215,7 +215,7 @@ export const quotes = [
 		id: 35,
 		quote: "You have the power to change the world.",
 		imageUrl:
-			"hhttps://scontent.fbni1-1.fna.fbcdn.net/v/t1.6435-9/117603978_2774116002822179_8132842140414651418_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeF89LFwHl2Qr6SDsdftzf0ykF2MYqWMXJqQXYxipYxcmnfRnBZi9Ar_PAnKxCiRs25KotJBBOT-qlQ1EZjKCKV_&_nc_ohc=T7yVnIPixlgQ7kNvgEH3pNZ&_nc_ht=scontent.fbni1-1.fna&oh=00_AYBqe8BZs9swfZkWjhkVqEQsIaGQ9vG7fq_cANhcyAiUQw&oe=66B11BA0",
+			"https://scontent.fbni1-2.fna.fbcdn.net/v/t1.6435-9/101180352_2708670572700056_3575279103885967360_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFG3q9PiSCLcHX9hc5qgCc_ZoRVL3-blLRmhFUvf5uUtGzXFiclLwUwgYkv7BJWKhPY2bVbGJE7ZQ4kvgR7HMkX&_nc_ohc=2odddMd9ff0Q7kNvgH50ZEZ&_nc_ht=scontent.fbni1-2.fna&oh=00_AYCsmcxQBqme4eSrgVqD9PKdTL1qjLWWykKpR8gmcNgUcg&oe=66B118D5",
 	},
 	{
 		id: 36,

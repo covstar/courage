@@ -55,11 +55,11 @@ function App() {
               key={quote} // Add key prop here
               sequence={[
                 quote, // Use quote directly
-                1000, // Waits 1s
+                2000, // Waits 1s
               ]}
               wrapper="span"
               cursor={true}
-              speed={30}
+              speed={20}
               repeat={Infinity}
               style={{ fontSize: '', display: '' }}
             />
