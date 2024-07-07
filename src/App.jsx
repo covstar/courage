@@ -31,7 +31,7 @@ function App() {
   }, [quote]);
 
   return <>
-    <div>
+    <div className='h-full'>
       <div className='header'>
       <div className='profile_container'>
         <h1>Princess Chinelo Noble</h1>
@@ -88,9 +88,9 @@ function App() {
       </div>
 
     </div>
-    <div className='footer'>
+    <footer className='footer'>
                 <p>Remember That You Are The Best!</p>
-    </div>
+    </footer>
   </>;
 }
 
