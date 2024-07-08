@@ -5,9 +5,7 @@
 html{
     @apply font-Oswald bg-love_3 
 }
-body{
-    @apply pb-[40px] 
-}
+
 
 .header{
     @apply bg-gradient-to-br from-love_5 to-love_3 text-[#222] text-[24px] mobile:text-[18px] uppercase  font-[700] p-[5px] px-[20px] shadow-md
